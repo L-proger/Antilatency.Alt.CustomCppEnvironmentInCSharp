@@ -1,0 +1,7 @@
+/lib
+/bin
+/CSharpHostApplication/bin
+/CSharpHostApplication/obj
+/CSharpHostApplication/.vs
+/CppEnvironment/out
+/CppEnvironment/.vs
