@@ -1,4 +1,4 @@
-# Antilatency.Alt.Unity.CustomCppEnvironment
+# Antilatency.Alt.CustomCppEnvironmentInCSharp
 This example demonstrates how to create a custom C++ Environment implementation for the Antilatency's Alt tracker from scratch and use it in a C# application.
 
 The CppEnvironment is implemented in a separate shared library and used from a C# application. You can find out how interface pointers can be passed from C# to C++ and from C++ to C# (if you don't have AntilatencyApiGenerator) - notice the `createEnvironment` and `useEnvironment` methods on both sides. You can also learn how to create "Interfaced Object" and how they can implement interfaces (IEnvironment in current example). 
